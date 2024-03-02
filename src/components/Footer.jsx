@@ -57,7 +57,7 @@ function Footer() {
         <div className="content flex flex-col text-base text-zinc-600 capitalize underline underline-offset-4 px-2 font-Neue_Montreal">
           {["Instagram", "Facebook", "LinkedIn", "Behance"].map(
             (item, index) => (
-              <a key={index} href="#">{item}</a>
+              <a  href="#">{item}</a>
             )
           )}
         </div>
@@ -73,7 +73,7 @@ function Footer() {
             "insights",
             "contact us",
           ].map((item, index) => (
-            <a key={index} href="#">{item}</a>
+            <a href="#">{item}</a>
           ))}
         </div>
       </div>
