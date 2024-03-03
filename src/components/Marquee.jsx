@@ -1,18 +1,33 @@
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
 
 function Marquee() {
   return (
-    <div className="w-full py-20 rounded-3xl bg-[#004D43]">
-
-        <div className="text border-t-2 border-b-2 border-zinc-300 flex whitespace-nowrap overflow-hidden gap-10">
-
-            <h1 className="text-[15vw] leading-none font-[Founders_Grotesk_x_condensed] uppercase -mb-20 pt-10">we are osm</h1>
-
-            <h1 className="text-[15vw] leading-none font-[Founders_Grotesk_x_condensed] uppercase -mb-20 pt-10">we are osm</h1>
-
-        </div>
+    <div
+      data-scroll
+      data-scroll-section
+      data-scroll-speed="-.00009"
+      className="w-full py-24 bg-[#004D43] rounded-t-3xl "
+    >
+      <div className="text border-t-[1px] border-b-[1px] border-zinc-400 overflow-hidden flex whitespace-nowrap">
+        <motion.h1
+          initial={{ x: "0" }}
+          animate={{ x: "-100%" }}
+          transition={{ repeat: Infinity, ease: "linear", duration: 10 }}
+          className="text-[18vw] font-Founders_semibold  leading-none font-bold uppercase -mb-[2vw] pt-[3vw] pr-20"
+        >
+          we are ochi
+        </motion.h1>
+        <motion.h1
+          initial={{ x: "0" }}
+          animate={{ x: "-100%" }}
+          transition={{ repeat: Infinity, ease: "linear", duration: 10 }}
+          className="text-[18vw] font-Founders_semibold  leading-none font-bold uppercase -mb-[2vw] pt-[3vw] pr-20"
+        >
+          we are ochi
+        </motion.h1>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Marquee
+export default Marquee;
