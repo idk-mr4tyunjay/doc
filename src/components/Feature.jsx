@@ -18,7 +18,7 @@ function Feature() {
           >
             <h1 className="absolute z-10 flex overflow-hidden text-8xl font-semibold leading-none tracking-tighter left-full -translate-x-1/2 top-1/2 -translate-y-1/2 text-[#CDEA68]">
               {"FYDE".split("").map((item, index) => (
-                <motion.span
+                <motion.span key={index}
                   initial={{ y: "100%" }}
                   animate={isHovering1 ? { y: "0" } : { y: "100%" }}
                   transition={{ ease: [0.22, 1, 0.36, 1], delay: index * 0.06 }}
@@ -28,7 +28,7 @@ function Feature() {
                 </motion.span>
               ))}
             </h1>
-            <motion.div
+            <motion.div 
               initial={{ width: "100%", height: "100%" }}
               animate={
                 isHovering1
@@ -84,5 +84,6 @@ function Feature() {
     </div>
   );
 }
+              // <motion.span key={index}
 
 export default Feature;
