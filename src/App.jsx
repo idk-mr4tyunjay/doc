@@ -1,4 +1,5 @@
 import About from "./components/About"
+import Cursor from "./components/Cursor"
 import LandingPage from "./components/LandingPage"
 import Marquee from "./components/Marquee"
 import Navbar from "./components/Navbar"
@@ -12,6 +13,7 @@ function App() {
       <LandingPage />
       <Marquee />
       <About />
+      <Cursor />
     </div>
   )
 }
