@@ -8,7 +8,7 @@ function LandingPage() {
           return (
             <div className="masker" key={index}>
               <div className="w-fit flex items-center overflow-hidden">
-              {index === 1 && <div className="w-[8vw] h-[6vw] relative-top-[1vw] bg-red-500"></div>}
+              {index === 1 && <div className="w-[8vw] h-[6vw] relative-top-[1vw] bg-red-500" />}
                   <h1
                     className="uppercase text-[5vw] leading-[7.5vw] tracking-tighter 
                 font-['Founders_Grostek'] font-medium"
@@ -34,7 +34,7 @@ function LandingPage() {
         ))}
 
         <div className="start">
-          <div className="px-5 py-2 border-[2px] border-zinc-500 rounded-full font-light text-md uppercase"></div>
+          <div className="px-5 py-2 border-[2px] border-zinc-500 rounded-full font-light text-md uppercase" />
           <div className="w-10 h-10 flex items-center justify-center border-[1px] order-zinc-500 rounded-full">
             <span className="rotate-[45deg]">
               <FaArrowUpLong />

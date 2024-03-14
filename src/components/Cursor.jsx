@@ -34,7 +34,7 @@ function Cursor() {
                   }}
                   className="line w-full absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]"
                 >
-                  <div className="w-8 h-8 bg-zinc-100 rounded-full"></div>
+                  <div className="w-8 h-8 bg-zinc-100 rounded-full" />
                 </div>
               </div>
             </div>
@@ -46,7 +46,7 @@ function Cursor() {
                   }}
                   className="line w-full absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] "
                 >
-                  <div className="w-8 h-8 bg-zinc-100 rounded-full"></div>
+                  <div className="w-8 h-8 bg-zinc-100 rounded-full" />
                 </div>
               </div>
             </div>
