@@ -17,7 +17,7 @@ function About() {
           <h1 className="text-5xl mb-6 ">Our approach:</h1>
           <button className="flex gap-10 items-center px-5 py-4 bg-zinc-900 rounded-full text-zinc-200 uppercase ">
             Read More
-            <div className="w-2 h-2 bg-white rounded-full"></div>
+            <div className="w-2 h-2 bg-white rounded-full" />
           </button>
         </div>
         <div className="w-1/2 h-[70vh] bg-red-500 rounded-xl overflow-hidden">
